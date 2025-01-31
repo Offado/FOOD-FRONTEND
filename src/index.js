@@ -4,6 +4,8 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router";
+import Profile from "./Pages/Profile/Profile";
+import Orders from "./Components/Orders/Orders";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -11,6 +13,8 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
+        <Route path="/Profile" element={<Profile />} />
+        <Route path="/Order" element={<Orders />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

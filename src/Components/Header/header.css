@@ -47,6 +47,13 @@ header ul a {
     padding: 1rem;
 }
 
+.logo:hover {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+
 .menu-container {
     position: relative;
 }
@@ -60,4 +67,17 @@ header ul a {
 
 .menu-container:hover .menu {
     display: block;
+}
+
+.menu a {
+    width: 100%;
+    min-width: 8rem;
+}
+
+.Cart-count {
+    background-color: rgb(13, 208, 13);
+    color: white;
+    padding: 0.1rem 0.45rem;
+    border-radius: 100rem;
+    font-size: 0.9rem;
 }

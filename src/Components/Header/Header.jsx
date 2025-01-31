@@ -38,7 +38,7 @@ const Header = () => {
             <li>
               <Link to="/Cart" className="L5">
                 Cart
-                {cart.totalCount > 0 && <span>{cart.totalCount}</span>}
+                {cart.totalCount > 0 && <span className="Cart-count">{cart.totalCount}</span>}
               </Link>
             </li>
           </ul>
