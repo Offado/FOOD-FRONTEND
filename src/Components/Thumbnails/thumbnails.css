@@ -1,0 +1,44 @@
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    gap: 2.5rem;
+}
+
+.list li a {
+    display: flex;
+    height: 180px;
+    overflow: hidden;
+    flex-direction: column;
+    margin: 0.5rem;
+    img {
+        height: 100%;
+        width: 200px;
+        border-radius: 5px;
+        object-fit: cover;
+    }
+}
+
+.content {
+    margin-top: 0.3rem;
+    padding: 0.5rem 1rem;
+    position: relative;
+    height: 7rem;
+}
+
+.favorite {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 1.2rem;
+    color: red;
+}
+
+.not {
+    color: #333;
+}
+
+
